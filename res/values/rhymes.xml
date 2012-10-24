@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="rhyme_op">cop,mop,top,pop</string>
+	<string name="rhyme_ack">back, lack, pack, rack, sack, tack, yak, black, knack, quack, slack, smack, snack, stack, track, whack, attack</string>
+	<string name="rhyme_ail">bale, fail, hail, mail, male, nail, pail, tale, rail, sail, stale, scale, snail, whale, detail, email</string>
+	<string name="rhyme_air">air, bare, care, chair, dare, fair, hair, pair, rare, wear, chair, flare, stare, scare, share, spare, square, there, where, aware, beware, compare, declare, despair, prepare, repair, unfair</string>
+	<string name="rhyme_ake">ache, bake, fake, lake, make, rake, take, brake, break, flake, quake, snake, steak, awake, mistake</string>
+	<string name="rhyme_all">all, ball, call, doll, hall, fall, tall, crawl, small, baseball, football</string>
+	<string name="rhyme_an">an, can, fan, man, pan, ran, tan, van, plan, scan, span, began</string>
+	<string name="rhyme_and">and, band, hand, land, sand, bland, command, demand, expand, stand, understand</string>
+	<string name="rhyme_ap">cap, gap, map, nap, tap, zap, chap, clap, flap, slap, snap, strap, trap, wrap</string>
+	<string name="rhyme_ar">are, bar, car, far, jar, tar, star, scar, afar, guitar</string>
+	<string name="rhyme_at">at, bat, cat, fat, hat, mat, pat, rat, sat, flat, that, splat, combat</string>
+	<string name="rhyme_ate">ate, date, fate, mate, late, gate, rate, wait, crate, great, plate, skate, slate, state, straight, trait, weight, create</string>
+	<string name="rhyme_ed">bed, dead, fed, head, led, read, red, said, bread, fled, spread, thread, tread, instead</string>
+	<string name="rhyme_ell">bell, fell, sell, well, yell, shell, smell, spell, farewell, hotel, motel</string>
+	<string name="rhyme_en">den, hen, men, pen, ten, glen, then, when, wren, again</string>
+	<string name="rhyme_et">bet, get, jet, let, met, pet, set, vet, wet, yet, threat, barrette, reset, upset</string>
+	<string name="rhyme_in">bin, chin, in, pin, tin, grin, thin, twin, skin, begin, within</string>
+	<string name="rhyme_ing">king, ring, sing, wing, zing, bring, cling, fling, sling, spring, sting, string, swing, thing</string>
+	<string name="rhyme_it">bit, fit, hit, it, kit, lit, pit, sit, flit, knit, quit, skit, slit, spit, split, admit, commit, permit</string>
+	<string name="rhyme_ite">bite, kite, bright, fight, fright, knight, night, might, right, tight, white, write, delight, tonight</string>
+	<string name="rhyme_oh">go, hoe, low, mow, row, sew, toe, blow, crow, dough, flow, know, glow, grow, know, show, slow, snow, stow, though, throw, ago, although, below</string>
+	<string name="rhyme_ot">cot, dot, got, hot, lot, not, pot, rot, tot, bought, fought, knot, taught, shot, spot, squat, forgot</string>
+	<string name="rhyme_ound">crowned, found, ground, hound, mound, pound, round, sound, wound, around, surround</string>
+	<string name="rhyme_oze">bows, hose, nose, rose, toes, blows, flows, froze, grows, those</string>
+	<string name="rhyme_ub">cub, rub, sub, tub, club, stub, scrub, shrub</string>
+	<string name="rhyme_un">bun, fun, gun, one, run, son, sun, ton, won, done, none, begun, outdone, undone</string>
+	<string name="rhyme_invalid">Rhymes unavailable</string>
+</resources>

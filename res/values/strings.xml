@@ -8,6 +8,4 @@
     <string name="title_activity_get_input">Rhyming words</string>
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_display_message">DisplayMessageActivity</string>
-	<string name="rhyme_cat">bat,rat,mat,hat,sat</string>
-	<string name="rhyme_top">cop,mop,top,pop</string>
 </resources>

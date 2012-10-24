@@ -29,7 +29,7 @@ public class GetInputActivity extends Activity {
     	    EditText editText = (EditText) findViewById(R.id.edit_message);
     	    String message = editText.getText().toString();
     	    //getString(R.string.rhyme_cat);
-    	    intent.putExtra(EXTRA_MESSAGE, getString(R.string.rhyme_cat));
+    	    intent.putExtra(EXTRA_MESSAGE, getString(R.string.rhyme_at));
     	    startActivity(intent);
     }
 
