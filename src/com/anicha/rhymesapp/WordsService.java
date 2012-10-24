@@ -12,7 +12,7 @@ public class WordsService {
 	/**
 	 * @param args
 	 */
-	public static String getRhymingWords() {
+	public static String getRhymingWords(R r) {
 		StringBuilder sb = new StringBuilder();
 		
 		return null; 

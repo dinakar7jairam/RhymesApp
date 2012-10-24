@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="rhyme_op">cop,mop,top,pop</string>
 	<string name="rhyme_ack">back, lack, pack, rack, sack, tack, yak, black, knack, quack, slack, smack, snack, stack, track, whack, attack</string>
 	<string name="rhyme_ail">bale, fail, hail, mail, male, nail, pail, tale, rail, sail, stale, scale, snail, whale, detail, email</string>
 	<string name="rhyme_air">air, bare, care, chair, dare, fair, hair, pair, rare, wear, chair, flare, stare, scare, share, spare, square, there, where, aware, beware, compare, declare, despair, prepare, repair, unfair</string>
@@ -21,6 +20,7 @@
 	<string name="rhyme_it">bit, fit, hit, it, kit, lit, pit, sit, flit, knit, quit, skit, slit, spit, split, admit, commit, permit</string>
 	<string name="rhyme_ite">bite, kite, bright, fight, fright, knight, night, might, right, tight, white, write, delight, tonight</string>
 	<string name="rhyme_oh">go, hoe, low, mow, row, sew, toe, blow, crow, dough, flow, know, glow, grow, know, show, slow, snow, stow, though, throw, ago, although, below</string>
+	<string name="rhyme_op">cop,mop,top,pop</string>
 	<string name="rhyme_ot">cot, dot, got, hot, lot, not, pot, rot, tot, bought, fought, knot, taught, shot, spot, squat, forgot</string>
 	<string name="rhyme_ound">crowned, found, ground, hound, mound, pound, round, sound, wound, around, surround</string>
 	<string name="rhyme_oze">bows, hose, nose, rose, toes, blows, flows, froze, grows, those</string>
