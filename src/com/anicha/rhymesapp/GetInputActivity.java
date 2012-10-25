@@ -3,42 +3,53 @@ package com.anicha.rhymesapp;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.Editable;
+import android.text.TextWatcher;
+import android.util.Log;
 import android.view.Menu;
 import android.view.View;
+import android.widget.ArrayAdapter;
+import android.widget.AutoCompleteTextView;
 import android.widget.EditText;
-import android.widget.TextView;
 
-public class GetInputActivity extends Activity {
+public class GetInputActivity extends Activity implements TextWatcher{
 
+	private static final String TAG = "GetInputActivity";
     public static final String EXTRA_MESSAGE =  "com.anicha.rhymesApp.MESSAGE";
 	/** The Constant LINE_SEPARATOR. */
 	public static final String LINE_SEPARATOR = System
 			.getProperty("line.separator");
+	AutoCompleteTextView myAutoComplete;
+	String item[]={
+	  "an", "at", "un", "ound",
+	  "May", "June", "July", "August",
+	  "September", "October", "November", "December"
+	};
 	@Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_get_input);
-        // Get the message from the intent
-        Intent intent = getIntent();
-        String message = intent.getStringExtra(GetInputActivity.EXTRA_MESSAGE);
+        Log.v(TAG, "onCreate" );
 
-        EditText outputBox = (EditText) findViewById(R.id.outputBox);
-        outputBox.setText(message);
+        myAutoComplete = (AutoCompleteTextView)findViewById(R.id.inputWord);
+       
+        myAutoComplete.addTextChangedListener(this);
+        myAutoComplete.setAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_dropdown_item_1line, item));
+       
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.activity_get_input, menu);
+        Log.v(TAG, "onCreateOptionsMenu" );
         return true;
     }
 
     /** Called when the user clicks the Send button */
     public void getRhymingWords(View view) {
-    	 // Intent intent = new Intent(this, DisplayMessageActivity.class);
-    	
-    	Intent intent = new Intent(this, GetInputActivity.class);
-    	    EditText editText = (EditText) findViewById(R.id.edit_message);
-    	    
+    	   Log.v(TAG, "getRhymingWords" );
+    	Intent intent = new Intent(this, DisplayMessageActivity.class);
+    	    EditText editText = (EditText) findViewById(R.id.inputWord);
     	    String input = editText.getText().toString();
     	    intent.putExtra(EXTRA_MESSAGE, getWords(input));
     	    startActivity(intent);
@@ -118,4 +129,23 @@ public class GetInputActivity extends Activity {
     	}
 		return sb.toString();
     }
+
+	@Override
+	public void afterTextChanged(Editable arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void beforeTextChanged(CharSequence arg0, int arg1, int arg2,
+			int arg3) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void onTextChanged(CharSequence arg0, int arg1, int arg2, int arg3) {
+		// TODO Auto-generated method stub
+		
+	}
 }
