@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package com.anicha.rhymesapp;
+package com.anicha.rhymeit;
 
 public final class R {
     public static final class attr {

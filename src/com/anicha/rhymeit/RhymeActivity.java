@@ -1,7 +1,7 @@
 /*
  * 
  */
-package com.anicha.rhymesapp;
+package com.anicha.rhymeit;
 
 import android.app.Activity;
 import android.content.Intent;
